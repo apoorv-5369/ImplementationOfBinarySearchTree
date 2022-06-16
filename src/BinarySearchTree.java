@@ -13,6 +13,9 @@ public class BinarySearchTree {
         bst.postOrder();
         search(bst,12);
         search(bst,9);
+        System.out.println("Delete 15");
+        bst.deleteKey(15);
+        bst.inOrder();
 
     }
     private static void search(BST bst, int key){
